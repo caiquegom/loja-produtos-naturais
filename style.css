@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Header */
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    padding: 28px 50px;
+}
+
+#logo {
+    width: 15px;
+    margin-right: 5px;
+}
+
+header p{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+    float: right;
+}
+
+header li {
+    display: inline;
+    padding-left: 20px;
+}
+
+/* Promoção banner */
+.catalog {
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+.offer img{
+    width: 100%;
+}
+
+.promHeader {
+    padding: 20px 50px;
+    font-size: 15px;   
+}
+
+h2{
+    display: inline;
+
+}
+
+.promHeader p{
+    float: right;
+}
+
+hr{
+    border: none;
+    background-color: #a5a1a160;
+    height: 1px;
+}
+
+/* Catálogo */
+
+.catalog {
+    text-align: center;
+}
+
+.product img {
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.product{   
+    display: inline-block;
+    text-align: left;
+    padding: 30px 5%;
+}
+
+.product p{
+    padding-top: 13px;
+    font-weight: bold;
+}
+
+span{
+    color: #5CA720;
+    font-size: 21px;
+}
+
+.price {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+/* Rodapé 1 */
+footer {
+    background-color: #F9F9F9;
+    font-weight: bold;
+}
+
+.up {
+    padding: 30px 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.informations {
+    display: inline-block;
+}
+
+.informations ul {
+    list-style: none;
+}
+
+.informations li {
+    margin: 9px 0;
+}
+
+.newsletter {
+    float: right;
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.newsletter p {
+    margin-bottom: 17px;
+
+}
+
+input[type="email"] {
+    font-family: 'Lato', sans-serif;
+    padding: 9px;
+    width: 290px;
+    height: 40px;
+    border: 1px solid #a5a1a177;
+    border-radius: 3px 0 0 3px;
+    box-sizing: border-box;
+}
+
+::placeholder{
+    color: rgb(174, 174, 174);
+    font-size: 15px;
+}
+
+input[type="submit"] {
+    padding: 0 20px;
+    margin-left: -3px;
+    height: 40px;
+    background-color: #5CA720;
+    border: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    border-radius: 0 3px 3px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+/* Rodapé 1 */
+.down{
+    padding: 40px;
+}
+
+#contacts {
+    display: inline-block;
+
+}
+
+#payments {
+    float: right;
+}
+
+
+.down svg {
+    padding: 0 5px;
+}
+
+@media screen and (max-width: 695px) {
+
+}
+
+@media screen and (max-width: 770px) {
+
+    header{
+        padding: 28px 30px;
+    }
+
+    .offer img{
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+
+    .promHeader {
+        padding: 20px 30px;   
+    }
+    
+    .newsletter{
+        display: block;
+        float: none;
+        position: static;
+        transform: none;
+        margin-top: 55px;    
+    }
+
+    .product p{
+        font-size: 15px;
+    }
+
+    .price{
+        font-size: 10px;
+    }
+
+    span{
+        font-size: 16px;
+    }
+
+    .product img{
+        min-width: 156px;
+        min-height: 156px;
+    }
+
+    .up {
+        padding: 30px 25px;
+    }
+
+    input[type="email"] {
+        font-family: 'Lato', sans-serif;
+        padding: 9px;
+        width: 100%;
+        height: 40px;
+        border: 1px solid #a5a1a177;
+        border-radius: 3px 0 0 3px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        border-radius: 3px;
+    }
+
+    input[type="submit"] {
+        display: block;
+        margin: 10px 0;
+        width: 100%;
+        border-radius: 3px;
+    }
+
+    .down{
+        padding: 40px 25px;
+    }
+    
+}
