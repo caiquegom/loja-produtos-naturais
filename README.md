@@ -1,6 +1,6 @@
 # Loja Produtos Naturais
 Replicação de um site de loja de produtos naturais. Projeto Front-End feito com HTML e CSS.
-O projeto original (desenvolvido por Thaysa está disponível no site DevChallenge por Thaysa Gomes.
+O projeto original (desenvolvido por Thaysa) está disponível no site DevChallenge por Thaysa Gomes.
 
 # Objetivo  
 Replicar a página proposta no site do desafio e torná-la responsiva.
