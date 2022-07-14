@@ -16,6 +16,9 @@ body{
 
 header {
     padding: 28px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #logo {
@@ -51,7 +54,10 @@ header li {
 
 .promHeader {
     padding: 20px 50px;
-    font-size: 15px;   
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h2{
@@ -73,6 +79,10 @@ hr{
 
 .catalog {
     text-align: center;
+    display: grid;
+
+    grid-template: auto auto auto / auto auto auto;
+    justify-items: center;
 }
 
 .product img {
@@ -190,10 +200,6 @@ input[type="submit"] {
     padding: 0 5px;
 }
 
-@media screen and (max-width: 695px) {
-
-}
-
 @media screen and (max-width: 770px) {
 
     header{
@@ -228,6 +234,10 @@ input[type="submit"] {
 
     span{
         font-size: 16px;
+    }
+
+    .catalog {
+        grid-template: auto auto auto auto / auto auto
     }
 
     .product img{
